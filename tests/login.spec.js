@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+const { test, expect } = require('@playwright/test');
 
 test('Valid user can log in', async ({ page }) => {
   await page.goto('https://practicetestautomation.com/practice-test-login/');
